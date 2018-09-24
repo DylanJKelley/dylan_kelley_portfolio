@@ -13,7 +13,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -22,19 +22,156 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+
+
+
+  <style>
+    body,
+    html {
+      height: 100%;
+    }
+
+    .parallax {
+      /* The image used */
+      background-image: url('space_background.jpg');
+
+      /* Full height */
+      height: 100%;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .different {
+      background-image: url('space_background2.jpg');
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
+    html {
+      background-color: black
+    }
+
+    h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 40px;
+      text-align: center;
+      color: white
+    }
+
+    p {
+      color: white;
+      background-color: black;
+      padding: 400px 300px 400px 300px;
+    }
+
+    header nav {
+      display: table;
+      width: 100%;
+      border: 6px solid white;
+      padding: 10px;
+    }
+
+    header nav ul {
+      display: table-row;
+      list-style-type: none;
+
+    }
+
+    header nav ul li {
+      display: table-cell;
+      text-align: center;
+      /* border: 2px solid white; */
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 3px 80px 3px 3px;
+      font-weight: bold;
+      ;
+    }
+
+    nav ul li a:hover {
+      color: cyan;
+    }
+  </style>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Link</a></li>
+        <li><a href="index.html">Link</a></li>
+        <li><a href="index.html">Link</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="parallax"></div>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam temporibus ducimus error harum! Optio adipisci
+    excepturi porro illo odio maxime, iure quibusdam, placeat velit explicabo necessitatibus suscipit, quaerat aperiam
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis error eveniet possimus in consequuntur totam,
+    perferendis, quo blanditiis consectetur qui quos perspiciatis repudiandae cum iste nihil odio repellat eos
+    expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet praesentium, vero et vel dolores
+    explicabo ratione officia tempora molestias sint assumenda recusandae quis. Nulla perspiciatis expedita corrupti
+    molestiae accusamus animi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, laboriosam. Dolor
+    consectetur ipsa, corrupti obcaecati cupiditate voluptatem nam temporibus ipsam fugit facilis illo, beatae
+    praesentium ducimus qui vitae placeat assumenda!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    Pariatur rem obcaecati cum nostrum nam, provident, ducimus blanditiis mollitia laboriosam beatae earum. Similique,
+    a magnam laboriosam asperiores provident hic dolorem assumenda? Lorem ipsum dolor, sit amet consectetur adipisicing
+    elit. Voluptate dolores dicta, quidem tempore quo voluptas quod, dolor odio delectus provident aliquid debitis
+    laboriosam adipisci deserunt necessitatibus illo dolorem mollitia autem! Lorem ipsum dolor sit amet, consectetur
+    adipisicing elit. Incidunt repellat delectus, perferendis porro accusantium labore enim placeat? Perferendis ipsum
+    molestias necessitatibus dicta totam facere amet beatae dolor voluptate, doloremque non.</p>
+  <div class="different"></div>
+
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, voluptatibus dicta omnis voluptates a harum aut
+    pariatur numquam. Inventore animi obcaecati minus explicabo laboriosam? Ut modi accusamus dignissimos voluptatum
+    nisi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius culpa molestiae corrupti ducimus, nam soluta
+    odio. Quas, exercitationem repudiandae nulla aspernatur culpa itaque modi asperiores doloribus esse sit placeat
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam recusandae error debitis alias asperiores? Aperiam
+    voluptate similique, fuga voluptates soluta labore est dolores, praesentium minus inventore, omnis nostrum corporis
+    voluptatum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem delectus esse, nam quia aut
+    consectetur magnam similique voluptate. Natus inventore magnam expedita ad possimus laudantium fugit eius culpa
+    quaerat error? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quis, repellat voluptatum, quaerat
+    mollitia optio obcaecati iste ex porro facilis ratione qui perferendis non. Exercitationem ratione commodi neque
+    maxime odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquid, tenetur nesciunt cupiditate non
+    quod culpa, veritatis mollitia modi, autem voluptatibus! Quae quas aspernatur modi ab officiis vero reprehenderit
+    velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus sunt distinctio facilis quos accusamus,
+    ullam illo dolorum harum consectetur nisi unde aperiam doloremque! Quibusdam quasi ducimus unde placeat mollitia.
+  </p>
+
+  <!-- Scripts -->
+
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+  </script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
 </body>
 
 </html>
