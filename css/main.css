@@ -149,6 +149,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: cyan;
+    transition: .2s;
 }
 
 
