@@ -5,7 +5,7 @@ html {
 
 h1#name {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 250%;
+    font-size: 400%;
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0);
@@ -13,6 +13,7 @@ h1#name {
     padding-bottom: 20%;
     position: relative;
     top: 15%;
+    letter-spacing: 3px;
 }
 
 h2 {
@@ -32,6 +33,10 @@ p {
     padding-left: 10%;
     padding-right: 10%;
     margin: 0%;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8)
 }
 
 header nav {
@@ -64,4 +69,8 @@ nav ul li a {
 nav ul li a:hover {
     color: cyan;
     transition: .2s;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.8);
 }
