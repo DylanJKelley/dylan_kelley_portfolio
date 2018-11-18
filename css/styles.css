@@ -28,7 +28,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.8); */
     /* padding: 5% 10% 5% 10%; */
     padding-left: 10%;
     padding-right: 10%;
