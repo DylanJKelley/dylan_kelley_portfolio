@@ -16,12 +16,72 @@ h1#name {
     letter-spacing: 3px;
 }
 
+h3#schoolHeading {
+    padding-top: 3%;
+    margin: 3% 0% 0% 12%;
+    display: inline-block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3#jobHeading {
+    padding-top: 3%;
+    margin: 3% 0% 0% 19%;
+    display: inline-block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3.xp {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img#schoolLogo {
+    display: inline-block;
+    margin: 3% 0% 0% 15%;
+    border: 1px solid white;
+    float: left;
+}
+
+img#jobLogo {
+    display: inline-block;
+    margin: 3% 0% 0% 18%;
+    border: 1px solid white;
+    float: left;
+}
+
+p#schoolCaption {
+    margin: 3% 10% 0% 30%;
+    text-indent: 3%;
+}
+
+p#jobCaption {
+    margin: 3% 10% 0% 30%;
+    text-indent: 3%;
+}
+
+h2#employment {
+    margin-top: 7%;
+}
+
 h2 {
     background-color: rgba(0, 0, 0, 0);
     color: white;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 150%;
+    font-size: 160%;
+}
+
+hr.xp {
+    width: 65%;
+}
+
+hr {
+    margin: auto;
+    width: 80%;
+    color: white;
 }
 
 p {
@@ -29,7 +89,6 @@ p {
     text-align: center;
     color: white;
     /* background-color: rgba(0, 0, 0, 0.8); */
-    /* padding: 5% 10% 5% 10%; */
     padding-left: 10%;
     padding-right: 10%;
     margin: 0%;
@@ -42,9 +101,9 @@ header {
 
 header nav {
     display: table;
-    width: 98%;
-    /* border: 6px solid white; */
+    width: 98.7%;
     padding: 10px;
+    border-bottom: 1px solid white;
 }
 
 header nav ul {
@@ -57,7 +116,6 @@ header nav ul li {
     display: table-cell;
     text-align: center;
     width: 33%;
-    /* border: 2px solid white; */
 }
 
 nav ul li a {
@@ -74,4 +132,5 @@ nav ul li a:hover {
 
 section {
     background-color: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid white;
 }
