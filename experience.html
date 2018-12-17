@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/progress.js"></script>
 </head>
 
 <body>
@@ -50,7 +52,7 @@
         <hr>
 
         <img src="centennial_coyotes_logo.jpg" alt="Coyotes Logo" id="schoolLogo" />
-        <h3 id="schoolHeading">Centenial High School - Class of 2020</h3>
+        <h3 id="schoolHeading">Centennial High School - Class of 2020</h3>
 
         <p id="schoolCaption">
             I am currently a Junior at Centennial High School in the graduating class of 2020. I have taken multiple
@@ -63,12 +65,69 @@
         <hr class="xp">
 
         <h3 class="xp">Completed Coursework</h3>
-        <!-- Add a progress bar showing understanding of different languages -->
+
+        <ul>
+            <li>Computer Programming and Tech</li>
+            <li>Game Design and Development</li>
+            <li>AP Computer Science A</li>
+        </ul>
+
+        <br>
+
+        <h3 class="xp">Coursework In Progress</h3>
+
+        <ul>
+            <li>Advanced Software Development H</li>
+            <li>Survey of Coding</li>
+            <li>Coding Fundamentals I</li>
+        </ul>
+
+        <!-- Progress Bar -->
+        <h3 id="codingXp">Coding Experience</h3>
+        <button id="progressButton" onclick="moveHTML(), moveCSS(), moveJava(), moveJS(), moveCSharp()">Check Progress</button>
+        <br>
+        <h4>Java</h4>
+        <div id="progressJava">
+            <div id="progressBarJava">50%</div>
+        </div>
+        <br>
+        <h4>JavaScript</h4>
+        <div id="progressJS">
+            <div id="progressBarJS">10%</div>
+        </div>
+        <br>
+        <h4>HTML</h4>
+        <div id="progressHTML">
+            <div id="progressBarHTML">70%</div>
+        </div>
+        <br>
+        <h4>C#</h4>
+        <div id="progressCSharp">
+            <div id="progressBarCSharp">5%</div>
+        </div>
+        <br>
+        <h4>CSS</h4>
+        <div id="progressCSS">
+            <div id="progressBarCSS">60%</div>
+        </div>
+        <br>
+        <!-- Progress Bar end -->
+
+        <h3 id="programs">Programs Used</h3>
+
+        <img src="visual_studio_code_logo.png" alt="VS Code Logo" class="program" id="vsCode" />
+        <img src="visual_studio_logo.png" alt="Visual Studo Code Logo" class="program" id="vs" />
+        <img src="eclipse_logo.png" alt="Eclipse Logo" class="program" id="eclipse" />
+        <img src="dreamweaver_logo.png" alt="Adobe Dreamweaver Logo" class="program" id="dreamweaver" />
+        <img src="gdevelop_logo.png" alt="GDevelop Logo" class="program" id="gDevelop" />
+        <img src="greenfoot_logo.png" alt="Greenfoot Logo" class="program" id="greenfoot" />
+        <img src="unity_logo.png" alt="Unity Logo" class="program" id="unity" />
+        <img src="fireworks_logo.png" alt="Adobe Fireworks Logo" class="program" id="fireworks" />
 
         <h2 id="employment">Employment</h2>
         <hr>
 
-        <img src="uncle_sams_logo.jpg" alt="Uncle Sam's Logo" id="jobLogo">
+        <img src="uncle_sams_logo.jpg" alt="Uncle Sam's Logo" id="jobLogo" />
         <h3 id="jobHeading"> Uncle Sam's - 7/2018-11/2018</h3>
 
         <p id="jobCaption">
@@ -76,10 +135,18 @@
             eveniet sapiente error aliquam laboriosam culpa similique eum optio impedit dolorem, tempora reprehenderit
             ipsum ex libero?
         </p>
+
+        <h2 id="volunteer">Volunteer Service</h2>
+        <hr>
+
+        <h3 id="volunteerHeading">Falling Feathers</h3>
     </section>
 
     <!-- Scripts -->
 
+
+
+    ==============================================================================================================================
     <script src="js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>

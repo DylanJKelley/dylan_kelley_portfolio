@@ -1,8 +1,26 @@
+/* Structural Styles */
 body,
 html {
     height: 100%;
+    width: 100%;
 }
 
+section {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid white;
+}
+
+hr.xp {
+    width: 65%;
+}
+
+hr {
+    margin: auto;
+    width: 80%;
+    color: white;
+}
+
+/* Heading Styles */
 h1#name {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 400%;
@@ -32,10 +50,65 @@ h3#jobHeading {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h3.xp {
+h3#codingXp {
     text-align: center;
+    text-decoration: underline;
+    padding-top: 3%;
+    display: block;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3#programs {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5%;
+}
+
+h3.xp {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2#employment {
+    margin-top: 7%;
+}
+
+h2.xp {
+    margin-top: 5%;
+}
+
+h2 {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 160%;
+}
+
+h4 {
+    display: inline;
+    margin: auto;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20.5%;
+}
+
+/* Image Styles */
+img.program {
+    display: inline-block;
+    width: 20%;
+    margin: auto;
+    padding-left: 10%;
+}
+
+img#fireworks {
+    width: 15%;
+    padding-left: 12%;
 }
 
 img#schoolLogo {
@@ -52,6 +125,7 @@ img#jobLogo {
     float: left;
 }
 
+/* Paragraph Styles */
 p#schoolCaption {
     margin: 3% 10% 0% 30%;
     text-indent: 3%;
@@ -62,39 +136,30 @@ p#jobCaption {
     text-indent: 3%;
 }
 
-h2#employment {
-    margin-top: 7%;
-}
-
-h2 {
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 160%;
-}
-
-hr.xp {
-    width: 65%;
-}
-
-hr {
-    margin: auto;
-    width: 80%;
-    color: white;
-}
-
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: white;
-    /* background-color: rgba(0, 0, 0, 0.8); */
     padding-left: 10%;
     padding-right: 10%;
     margin: 0%;
     padding-bottom: 5%;
 }
 
+/* List Styles */
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+li {
+    margin-right: 3%;
+    padding-top: 1%;
+}
+
+/* Header and Navigation Styles */
 header {
     background-color: rgba(0, 0, 0, 0.8)
 }
@@ -130,7 +195,87 @@ nav ul li a:hover {
     transition: .2s;
 }
 
-section {
-    background-color: rgba(0, 0, 0, 0.8);
-    border-top: 1px solid white;
+/* Progress Bar Styles */
+div#progressHTML {
+    width: 60%;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+}
+
+div#progressBarHTML {
+    width: 0%;
+    height: 20px;
+    background-color: white;
+}
+
+div#progressCSS {
+    width: 60%;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+}
+
+div#progressBarCSS {
+    width: 0%;
+    height: 20px;
+    background-color: white;
+}
+
+div#progressJava {
+    width: 60%;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+}
+
+div#progressBarJava {
+    width: 0%;
+    height: 20px;
+    background-color: white;
+}
+
+div#progressJS {
+    width: 60%;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+}
+
+div#progressBarJS {
+    width: 0%;
+    height: 20px;
+    background-color: white;
+}
+
+div#progressCSharp {
+    width: 60%;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+}
+
+div#progressBarCSharp {
+    width: 0%;
+    height: 20px;
+    background-color: white;
+}
+
+button#progressButton {
+    background-color: transparent;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    margin: auto;
+    border: 1px solid white;
+}
+
+button#progressButton:hover {
+    color: cyan;
+    border-color: cyan;
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
