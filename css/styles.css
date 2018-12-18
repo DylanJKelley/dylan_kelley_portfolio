@@ -8,6 +8,17 @@ html {
 section {
     background-color: rgba(0, 0, 0, 0.8);
     border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 2% 0% 2% 0%;
+    letter-spacing: 3px;
 }
 
 hr.xp {
@@ -78,6 +89,10 @@ h2#employment {
     margin-top: 7%;
 }
 
+h2#volunteer {
+    margin-top: 5%;
+}
+
 h2.xp {
     margin-top: 5%;
 }
@@ -96,10 +111,11 @@ h4 {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 20.5%;
+    letter-spacing: 1px;
 }
 
 h3#volunteerHeading {
-    margin: 5% 0% 0% 13%;
+    margin: 5% 15% 0% 0%;
     text-align: center;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -125,6 +141,10 @@ img#schoolLogo {
     float: left;
 }
 
+img#schoolLogo:hover {
+    border-color: cyan;
+}
+
 img#jobLogo {
     display: inline-block;
     margin: 6% 0% 0% 16%;
@@ -133,12 +153,20 @@ img#jobLogo {
     width: 20%;
 }
 
+img#jobLogo:hover {
+    border-color: cyan;
+}
+
 img#volunteerLogo {
     display: inline-block;
     margin: 6% 0% 0% 16%;
     border: 1px solid white;
     float: left;
     width: 20%;
+}
+
+img#volunteerLogo:hover {
+    border-color: cyan;
 }
 
 /* Paragraph Styles */
@@ -299,4 +327,5 @@ button#progressButton:hover {
 div {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    color: black;
 }
