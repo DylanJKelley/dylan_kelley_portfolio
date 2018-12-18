@@ -121,6 +121,12 @@ h3#volunteerHeading {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* Image Styles */
 img.program {
     display: inline-block;
@@ -213,6 +219,11 @@ header {
     background-color: rgba(0, 0, 0, 0.8)
 }
 
+nav {
+    position: sticky;
+    top: 0;
+}
+
 header nav {
     display: table;
     width: 98.7%;
@@ -229,7 +240,7 @@ header nav ul {
 header nav ul li {
     display: table-cell;
     text-align: center;
-    width: 33%;
+    width: 25%;
 }
 
 nav ul li a {
