@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>Projects</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/header_disappear.js"></script>
+    <script src="js/slideshow.js"></script>
 </head>
 
 <body>
@@ -46,17 +49,73 @@
     <h1 id="name">Projects</h1>
 
     <section>
-        <h2>lorem ipsum</h2>
+        <h2>Web Projects</h2>
         <hr>
 
-        <h3>lorem ipsum</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum distinctio iure explicabo sint neque impedit
-            et sequi saepe harum nemo facilis, iste illum eos mollitia alias vel, animi quam! Laboriosam. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Neque possimus voluptates, id reiciendis facere nobis
-            excepturi tenetur exercitationem eligendi quasi aspernatur officia atque cum veritatis ut. Optio,
-            consequatur necessitatibus! Maiores.</p>
+        <h3>West-MEC Projects</h3>
+        <p id="projectCaption">The following projects seen below are the fourth projects from each project stack and
+            are all unique and built starting with no CSS. Just HTML content was provided and styles had to be created
+            to position everything correctly and make everything look nice. You can see the full webpage that I created
+            by clicking on
+            the <strong>project caption</strong>.</p>
 
-        <!-- Add a slideshow showing all the projects I've done. -->
+        <!-- Slideshow showing all the projects I've done -->
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div id="loadFirst" class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="screenshot_project_02_04.PNG" style="width:100%">
+                <div class="text"><a class="slideshowCaption" href="https://west-mec-coding-y1s1.github.io/s1-project-02-04-DKelley989/">4th
+                        Project of Unit 2</a></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="screenshot_project_03_04.PNG" style="width:100%">
+                <div class="text"><a class="slideshowCaption" href="https://dkelley989.github.io/S1_Project_03_04/">4th
+                        Project of Unit 3</a></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="screenshot_project_04_04.PNG" style="width:100%">
+                <div class="text"><a class="slideshowCaption" href="https://dkelley989.github.io/SQL-Injection-Project/">4th
+                        Project of Unit 4</a></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="screenshot_project_05_04.PNG" style="width:100%">
+                <div class="text"><a class="slideshowCaption" href="https://dkelley989.github.io/S1_Project_05_04/">4th
+                        Project of Unit 5</a></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="screenshot_project_06_04.PNG" style="width:100%">
+                <div class="text"><a class="slideshowCaption" href="https://dkelley989.github.io/S1_Project_06_04/">4th
+                        Project of Unit 6</a></div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+        <!-- End of slideshow -->
+
+        <!-- Add another slideshow displaying some of my projects done with Java. -->
     </section>
 
     <footer>Dylan J. Kelley</footer>
