@@ -92,6 +92,10 @@ h2#contact {
     margin-top: 8%;
 }
 
+h2#javaHeading {
+    margin-top: 6%;
+}
+
 h2 {
     background-color: rgba(0, 0, 0, 0);
     color: white;
@@ -441,6 +445,8 @@ a.slideshowCaption {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     padding: 1%;
+    border: 1px solid white;
+    border-radius: 20px;
 }
 
 /* Changes slideshow caption's text color when hovered over */
